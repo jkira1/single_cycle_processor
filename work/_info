@@ -1,0 +1,310 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/Jay/Documents/School/ece552_spring/hw4
+vadder_1bit
+Z0 !s110 1740863718
+!i10b 1
+!s100 UDM;g3iH`6fIb22F]jSQI0
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IVZkjkcnR@YT5ERLLTSSlN3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/Jay/Documents/School/ece552_spring/phase1
+Z4 w1740777758
+Z5 8C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
+Z6 FC:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
+!i122 358
+L0 1 12
+Z7 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z8 !s108 1740863718.000000
+Z9 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v|
+Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v|
+!i113 1
+Z11 o-work work
+Z12 tCvgOpt 0
+vadder_4bit
+R0
+!i10b 1
+!s100 n5Nd`5Fg5@1:8eHdi0XTa1
+R1
+IA^FSUA2j3YZ]g@d@bKMDa0
+R2
+R3
+R4
+R5
+R6
+!i122 358
+L0 14 18
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vadder_tb
+R0
+!i10b 1
+!s100 :C0iFOidolUSkbiCbmzVk2
+R1
+IolE`l6eWj7@n3cKfGheL70
+R2
+R3
+R4
+R5
+R6
+!i122 358
+L0 33 19
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 1
+R11
+R12
+vcpu
+R0
+!i10b 1
+!s100 XaVBiUdH4_OU9_58n60ZL1
+R1
+IbL^heBH33Ej`U22DCDZ[`3
+R2
+R3
+w1740857488
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+!i122 362
+L0 1 24
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v|
+!i113 1
+R11
+R12
+vcpu_tb
+R0
+!i10b 1
+!s100 Z]0N2WLW>=GfoOGVK9dDO2
+R1
+Ia^_m>mZ5TJQUc7Ezo^@I50
+R2
+R3
+w1740782709
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v
+!i122 357
+L0 1 186
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v|
+!i113 1
+R11
+R12
+vdecoder
+R0
+!i10b 1
+!s100 YN6CeM8>^?Q1adXhElI<A0
+R1
+IgbQejLNBX<UC>>_@[?f9z2
+R2
+R3
+w1740862864
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v
+!i122 366
+L0 1 28
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v|
+!i113 1
+R11
+R12
+vdff
+R0
+!i10b 1
+!s100 Z9V@F2c50oH6kZfdURZd60
+R1
+IVKLSe7h`>WSRclTZm800h0
+R2
+R3
+R4
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v
+!i122 359
+L0 3 17
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v|
+!i113 1
+R11
+R12
+vexecute
+R0
+!i10b 1
+!s100 ihe:c?QaQldiA9`0T8?B<2
+R1
+I;5j]b7UmWlmzQ:`2XiGhf1
+R2
+R3
+w1740862254
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
+!i122 367
+L0 1 55
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+!i113 1
+R11
+R12
+vfetch
+R0
+!i10b 1
+!s100 gnG7;?OPPXGGoalDYn:IM1
+R1
+IUJN?FgKS9<cdzL3hXMmzm1
+R2
+R3
+w1740789517
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v
+!i122 363
+L0 1 39
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v|
+!i113 1
+R11
+R12
+vmemory1c
+R0
+!i10b 1
+!s100 LJ]Ulh1>I:M^BQCzALJ9H3
+R1
+ILIZ@Go3FTmGM0LW9K;HU?3
+R2
+R3
+w1740782658
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v
+!i122 361
+L0 31 38
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v|
+!i113 1
+R11
+R12
+vmemoryaccess
+R0
+!i10b 1
+!s100 ?W_9:i[OKOCn56K6@Yl`22
+R1
+IY^DiPSlX2fKO86CbicQY50
+R2
+R3
+w1740857441
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v
+!i122 365
+L0 1 52
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v|
+!i113 1
+R11
+R12
+vt_adder4b
+R0
+!i10b 1
+!s100 bW92eM68D^DlZ_2XOQe8N1
+R1
+IB]zZGf_Sh2^BSIR:dR3S63
+R2
+R3
+R4
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
+!i122 360
+L0 5 22
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v|
+!i113 1
+R11
+R12
+vwriteback
+R0
+!i10b 1
+!s100 oF3?<1d2]O?NcP]=3o1jn0
+R1
+Igh;T61dYjVoZ?4ZkkUn002
+R2
+R3
+w1740856900
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v
+!i122 364
+L0 1 23
+R7
+r1
+!s85 0
+31
+R8
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v|
+!i113 1
+R11
+R12

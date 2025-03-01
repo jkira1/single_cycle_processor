@@ -1,0 +1,874 @@
+# Compile of cpu.v was successful.
+# Compile of Fetch.v was successful.
+# Compile of Decode.v was successful.
+# Compile of Execute.v was successful.
+# Compile of Memory.v was successful.
+# Compile of Writeback.v was successful.
+# 6 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# 5 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 16:45:59 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# ** Warning: (vsim-3008) [CNNODP] - Component name (instr) is not on a downward path.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb File: C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v Line: 157
+# ** Error: (vsim-3043) Unresolved reference to 'instr' in DUT.fetch0.instr.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb File: C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v Line: 157
+# ** Error: (vsim-3063) Port 'pc_out' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (1) does not match connection size (16) for port 'instruction'. The port definition is at: C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v(6).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/fetch0 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 18
+# ** Warning: (vsim-3015) [PCDPC] - Port size (16) does not match connection size (1) for port 'data_out'. The port definition is at: C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v(31).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/fetch0/instruction_memory File: C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v Line: 16
+# Error loading design
+# End time: 16:45:59 on Feb 28,2025, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 33
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 16:58:03 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# ** Error: (vsim-3063) Port 'pc_out' not found in the connected module (3rd connection).
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT File: C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v Line: 29
+# Error loading design
+# End time: 16:58:03 on Feb 28,2025, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 17:04:25 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# WARNING: No extended dataflow license exists
+add wave -position insertpoint  \
+sim:/cpu_tb/PC \
+sim:/cpu_tb/Inst \
+sim:/cpu_tb/RegWrite \
+sim:/cpu_tb/WriteRegister \
+sim:/cpu_tb/WriteData \
+sim:/cpu_tb/MemWrite \
+sim:/cpu_tb/MemRead \
+sim:/cpu_tb/MemAddress \
+sim:/cpu_tb/MemData \
+sim:/cpu_tb/Halt \
+sim:/cpu_tb/inst_count \
+sim:/cpu_tb/cycle_count \
+sim:/cpu_tb/trace_file \
+sim:/cpu_tb/sim_log_file \
+sim:/cpu_tb/clk \
+sim:/cpu_tb/rst_n
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+#############  Autofindloop Analysis  ###############
+#############  Loop found at time 250 ps ###############
+#       Signal: /cpu_tb/PC @ sub-iteration 0 at Value St0 (C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v:4)
+#       Signal: /cpu_tb/PC @ sub-iteration 0 at Value St0 (C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v:4)
+#       Signal: /cpu_tb/PC @ sub-iteration 0 at Value St1 (C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v:4)
+#   Active process: /cpu_tb/DUT/fetch0/instruction_memory/#ASSIGN#46 @ sub-iteration 1
+#     Source: C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v:16
+#   Active process: /cpu_tb/DUT/fetch0/#ASSIGN#26 @ sub-iteration 1
+#     Source: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v:20
+#       Signal: /cpu_tb/DUT/pc_inc_2 @ sub-iteration 2 at Value St1 (C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v:15)
+#   Active process: /cpu_tb/DUT/#ASSIGN#18 @ sub-iteration 3
+#     Source: C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v:29
+#       Signal: /cpu_tb/PC @ sub-iteration 4 at Value St1 (C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v:4)
+#   Active process: /cpu_tb/DUT/fetch0/instruction_memory/#ASSIGN#46 @ sub-iteration 5
+#     Source: C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v:16
+################# END OF LOOP #################
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 250 ps.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# ** Error (suppressible): (vsim-3601) Iteration limit 5000 reached at time 201 ps.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of fetch.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/ff[0] File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 20
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v failed with 1 errors.
+# Compile of fetch.v was successful.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 17:04:25 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.dff
+# Loading work.fetch
+# Loading work.memory1c
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff0 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 20
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff1 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff2 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 36
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff3 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 44
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff4 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 52
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff5 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff6 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 68
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff7 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 76
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff8 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 84
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff9 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 92
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff10 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 100
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff11 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 108
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff12 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 116
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff13 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 124
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff14 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 132
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff15 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 140
+# Error loading design
+# End time: 17:49:13 on Feb 28,2025, Elapsed time: 0:44:48
+# Errors: 17, Warnings: 3
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 17:50:41 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.dff
+# Loading work.fetch
+# Loading work.memory1c
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff0 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 20
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff1 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 28
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff2 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 36
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff3 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 44
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff4 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 52
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff5 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 60
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff6 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 68
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff7 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 76
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff8 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 84
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff9 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 92
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff10 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 100
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff11 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 108
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff12 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 116
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff13 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 124
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff14 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 132
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'q'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/pc_ff15 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 140
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'pc_inc_2'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/fetch0 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 149
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'instr'.
+#    Time: 0 ps  Iteration: 0  Instance: /cpu_tb/DUT/fetch0 File: C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v Line: 149
+# Error loading design
+# End time: 17:50:42 on Feb 28,2025, Elapsed time: 0:00:01
+# Errors: 18, Warnings: 2
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v failed with 2 errors.
+# Compile of fetch.v was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v failed with 2 errors.
+# Compile of fetch.v was successful.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 2 errors.
+# 7 compiles, 1 failed with 2 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v failed with 1 errors.
+# 7 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+vsim work.cpu_tb
+# vsim work.cpu_tb 
+# Start time: 18:16:47 on Feb 28,2025
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+add wave -position insertpoint  \
+sim:/cpu_tb/PC \
+sim:/cpu_tb/Inst \
+sim:/cpu_tb/RegWrite \
+sim:/cpu_tb/WriteRegister \
+sim:/cpu_tb/WriteData \
+sim:/cpu_tb/MemWrite \
+sim:/cpu_tb/MemRead \
+sim:/cpu_tb/MemAddress \
+sim:/cpu_tb/MemData \
+sim:/cpu_tb/Halt \
+sim:/cpu_tb/inst_count \
+sim:/cpu_tb/cycle_count \
+sim:/cpu_tb/trace_file \
+sim:/cpu_tb/sim_log_file \
+sim:/cpu_tb/clk \
+sim:/cpu_tb/rst_n
+run -all
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+add wave -position insertpoint  \
+sim:/cpu_tb/DUT/fetch0/pc \
+sim:/cpu_tb/DUT/fetch0/pc_inc_2 \
+sim:/cpu_tb/DUT/fetch0/instr \
+sim:/cpu_tb/DUT/fetch0/pc_add
+restart
+# Closing VCD file "dump.vcd"
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+restart
+# Closing VCD file "dump.vcd"
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.cpu_tb
+# Loading work.cpu
+# Loading work.fetch
+# Loading work.memory1c
+# Loading work.dff
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+# Hello world...simulation starting
+# See verilogsim.log and verilogsim.trace for output
+# hmm....more than 100000 cycles of simulation...error?
+# 
+# ** Note: $finish    : C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v(71)
+#    Time: 10 us  Iteration: 1  Instance: /cpu_tb
+# 1
+# Break in Module cpu_tb at C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v line 71
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# 7 compiles, 0 failed with no errors.
+view -new wave
+# -new not supported on PE
+add wave -position insertpoint  \
+sim:/cpu_tb/DUT/clk \
+sim:/cpu_tb/DUT/rst_n \
+sim:/cpu_tb/DUT/hlt \
+sim:/cpu_tb/DUT/pc_out \
+sim:/cpu_tb/DUT/pc_inc_2 \
+sim:/cpu_tb/DUT/instr
+add wave -position insertpoint  \
+sim:/cpu_tb/PC \
+sim:/cpu_tb/Inst \
+sim:/cpu_tb/RegWrite \
+sim:/cpu_tb/WriteRegister \
+sim:/cpu_tb/WriteData \
+sim:/cpu_tb/MemWrite \
+sim:/cpu_tb/MemRead \
+sim:/cpu_tb/MemAddress \
+sim:/cpu_tb/MemData \
+sim:/cpu_tb/Halt \
+sim:/cpu_tb/inst_count \
+sim:/cpu_tb/cycle_count \
+sim:/cpu_tb/trace_file \
+sim:/cpu_tb/sim_log_file \
+sim:/cpu_tb/clk \
+sim:/cpu_tb/rst_n
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# 8 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v failed with 2 errors.
+# Compile of memoryaccess.v failed with 2 errors.
+# 9 compiles, 2 failed with 4 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v failed with 2 errors.
+# 9 compiles, 1 failed with 2 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# 9 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# 10 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v failed with 2 errors.
+# 11 compiles, 1 failed with 2 errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v failed with 1 errors.
+# 11 compiles, 1 failed with 1 error.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v was successful.
+# 11 compiles, 0 failed with no errors.
+# Compile of project-phase1-testbench.v was successful.
+# Compile of adder4bit+tb.v was successful.
+# Compile of D-Flip-Flop.v was successful.
+# Compile of sample_adder_testbench.v was successful.
+# Compile of memory.v was successful.
+# Compile of cpu.v was successful.
+# Compile of fetch.v was successful.
+# Compile of writeback.v was successful.
+# Compile of memoryaccess.v was successful.
+# Compile of decoder.v was successful.
+# Compile of execute.v was successful.
+# 11 compiles, 0 failed with no errors.
