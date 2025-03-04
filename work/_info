@@ -10,7 +10,7 @@ z2
 cModel Technology
 dC:/Users/Jay/Documents/School/ece552_spring/hw4
 vadder_1bit
-Z0 !s110 1740863718
+Z0 !s110 1741054053
 !i10b 1
 !s100 UDM;g3iH`6fIb22F]jSQI0
 Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -20,13 +20,13 @@ Z3 dC:/Users/Jay/Documents/School/ece552_spring/phase1
 Z4 w1740777758
 Z5 8C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
 Z6 FC:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
-!i122 358
+!i122 2005
 L0 1 12
 Z7 OV;L;2020.1;71
 r1
 !s85 0
 31
-Z8 !s108 1740863718.000000
+Z8 !s108 1741054053.000000
 Z9 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v|
 Z10 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v|
 !i113 1
@@ -43,7 +43,7 @@ R3
 R4
 R5
 R6
-!i122 358
+!i122 2005
 L0 14 18
 R7
 r1
@@ -66,7 +66,7 @@ R3
 R4
 R5
 R6
-!i122 358
+!i122 2005
 L0 33 19
 R7
 r1
@@ -78,24 +78,186 @@ R10
 !i113 1
 R11
 R12
-vcpu
-R0
+vBitCell
+Z13 !s110 1741054055
 !i10b 1
-!s100 XaVBiUdH4_OU9_58n60ZL1
+!s100 fVHe0[5DNf^aJbHRh;7SP0
 R1
-IbL^heBH33Ej`U22DCDZ[`3
+I`a@>]`g2N4l?>ZQY:7M@P3
 R2
 R3
-w1740857488
-8C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
-FC:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
-!i122 362
-L0 1 24
+w1740446926
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v
+!i122 2014
+L0 1 13
 R7
 r1
 !s85 0
 31
-R8
+Z14 !s108 1741054055.000000
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v|
+!i113 1
+R11
+R12
+n@bit@cell
+vcla_16bit
+Z15 !s110 1741054056
+!i10b 1
+!s100 ^=d;9FB>Q7ZBl@F^XBl3G0
+R1
+I0fdlS693IAYkAVlMne9`W0
+R2
+R3
+Z16 w1741053627
+Z17 8C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
+Z18 FC:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
+!i122 2021
+L0 467 42
+R7
+r1
+!s85 0
+31
+Z19 !s108 1741054056.000000
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+Z20 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+!i113 1
+R11
+R12
+vcla_4bit
+R15
+!i10b 1
+!s100 9?6<`1Wec2_Eigf?lPPhO0
+R1
+II8TI5i]i4H>dWh64`G`;50
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 354 25
+R7
+r1
+!s85 0
+31
+R19
+Z21 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+R20
+!i113 1
+R11
+R12
+vcla_4bit_group
+R15
+!i10b 1
+!s100 =72<;YHakT45NzFicmCg]3
+R1
+I47ikjoaB9UdOcfYQV@E[53
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 439 27
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vcla_5bit
+R15
+!i10b 1
+!s100 =f^m`:WboO[PZ=OMR`z8Z2
+R1
+IM69Z0NbKFhBgU^g=I7Z1;0
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 381 25
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vcla_6bit
+R15
+!i10b 1
+!s100 ;JSN6SkEe6`TMWJ7^>52f0
+R1
+I9FZ<EW<LKdS_bcUP]U@Li2
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 408 29
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vcontrol_signals
+R15
+!i10b 1
+!s100 _aOZmB:O_`ejO`OZ8Q:Jh1
+R1
+IlY4>n8PXEm[3F`3SMZ^?Z2
+R2
+R3
+w1741053842
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/control_signals.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/control_signals.v
+!i122 2019
+L0 1 231
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/control_signals.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/control_signals.v|
+!i113 1
+R11
+R12
+vcpu
+Z22 !s110 1741054054
+!i10b 1
+!s100 8IFhdka00Gm9[j407nUAH0
+R1
+I3FQfG;eMV6mNHX[m8bZ2f1
+R2
+R3
+w1741053769
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+!i122 2009
+L0 31 127
+R7
+r1
+!s85 0
+31
+Z23 !s108 1741054054.000000
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v|
 !i113 1
@@ -112,7 +274,7 @@ R3
 w1740782709
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/project-phase1-testbench.v
-!i122 357
+!i122 2004
 L0 1 186
 R7
 r1
@@ -125,30 +287,30 @@ R8
 R11
 R12
 vdecoder
-R0
+R13
 !i10b 1
-!s100 YN6CeM8>^?Q1adXhElI<A0
+!s100 ;=7SdXS=UbVRYCm9cNK=f2
 R1
-IgbQejLNBX<UC>>_@[?f9z2
+IaL0dk`mC1el`5LLaFa;TC0
 R2
 R3
-w1740862864
+w1741053834
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v
-!i122 366
-L0 1 28
+!i122 2013
+L0 1 105
 R7
 r1
 !s85 0
 31
-R8
+R14
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/decoder.v|
 !i113 1
 R11
 R12
 vdff
-R0
+R22
 !i10b 1
 !s100 Z9V@F2c50oH6kZfdURZd60
 R1
@@ -158,7 +320,7 @@ R3
 R4
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v
-!i122 359
+!i122 2006
 L0 3 17
 R7
 r1
@@ -171,76 +333,99 @@ R8
 R11
 R12
 vexecute
-R0
+R15
 !i10b 1
-!s100 ihe:c?QaQldiA9`0T8?B<2
+!s100 7U6V6n=A??A94RJ7R`7VU3
 R1
-I;5j]b7UmWlmzQ:`2XiGhf1
+IZmjK:5hIf<CW74OYThIdc3
 R2
 R3
-w1740862254
-8C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
-FC:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
-!i122 367
-L0 1 55
+R16
+R17
+R18
+!i122 2021
+L0 1 348
 R7
 r1
 !s85 0
 31
-R8
-!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v|
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vexecute_tb
+R15
+!i10b 1
+!s100 bSmJ<LUFNO486`9cj:WPb2
+R1
+IN?b7C:jKo`NLk]I0WB8?a0
+R2
+R3
+w1741040728
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v
+!i122 2020
+L0 3 71
+R7
+r1
+!s85 0
+31
+R19
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v|
 !i113 1
 R11
 R12
 vfetch
-R0
+R22
 !i10b 1
-!s100 gnG7;?OPPXGGoalDYn:IM1
+!s100 =;K;GTIzH]X3HozlPlHEe2
 R1
-IUJN?FgKS9<cdzL3hXMmzm1
+IiJL3@O6KZG:cAlBZXMong0
 R2
 R3
-w1740789517
+w1741050197
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v
-!i122 363
-L0 1 39
+!i122 2010
+L0 1 41
 R7
 r1
 !s85 0
 31
-R8
+R23
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v|
 !i113 1
 R11
 R12
 vmemory1c
-R0
+R22
 !i10b 1
-!s100 LJ]Ulh1>I:M^BQCzALJ9H3
+!s100 Th0z`I_Yfi17CnKSeJ2?M0
 R1
-ILIZ@Go3FTmGM0LW9K;HU?3
+IdS[P0ZBQj0]1iVfhTEn`d3
 R2
 R3
-w1740782658
+w1741054050
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v
-!i122 361
+!i122 2008
 L0 31 38
 R7
 r1
 !s85 0
 31
-R8
+R23
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/memory.v|
 !i113 1
 R11
 R12
 vmemoryaccess
-R0
+R13
 !i10b 1
 !s100 ?W_9:i[OKOCn56K6@Yl`22
 R1
@@ -250,20 +435,161 @@ R3
 w1740857441
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v
-!i122 365
+!i122 2012
 L0 1 52
 R7
 r1
 !s85 0
 31
-R8
+R23
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/memoryaccess.v|
 !i113 1
 R11
 R12
+vReadDecoder_4_16
+R13
+!i10b 1
+!s100 @n7b?j=aX<kJPLYNFoRi30
+R1
+I2[O`h<n0^lR9C]^R8X7[M0
+R2
+R3
+w1740446862
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v
+!i122 2015
+Z24 L0 1 6
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v|
+!i113 1
+R11
+R12
+n@read@decoder_4_16
+vRegister
+R13
+!i10b 1
+!s100 <Nj2<SLf`I0F4JVG7<iJ82
+R1
+IWQlPF5E5Q8ln18<kZ8KIQ2
+R2
+R3
+w1740446942
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v
+!i122 2016
+L0 1 183
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v|
+!i113 1
+R11
+R12
+n@register
+vRegisterFile
+R13
+!i10b 1
+!s100 _[S2<gGUB@0:ZZkRHfDjV0
+R1
+IIOk?RD<V]MSn^V]A0A_Di3
+R2
+R3
+w1741023621
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v
+!i122 2017
+L0 1 205
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v|
+!i113 1
+R11
+R12
+n@register@file
+vshifter_ror
+R15
+!i10b 1
+!s100 6gb5[LBZ3ZmdZ5NmK0HJ51
+R1
+InbR34X^GFmWhh@mJJFi880
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 539 11
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vshifter_sll
+R15
+!i10b 1
+!s100 >afa?8DnRmVH4Sao`e7_<2
+R1
+IV<3Xb;>EE`S`cRB:KHKB40
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 515 11
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
+vshifter_sra
+R15
+!i10b 1
+!s100 C>WGzKn;Cj3B]H<f7=^PR3
+R1
+I0]OVTM0;49`RhLR7M4O_B3
+R2
+R3
+R16
+R17
+R18
+!i122 2021
+L0 527 11
+R7
+r1
+!s85 0
+31
+R19
+R21
+R20
+!i113 1
+R11
+R12
 vt_adder4b
-R0
+R22
 !i10b 1
 !s100 bW92eM68D^DlZ_2XOQe8N1
 R1
@@ -273,38 +599,62 @@ R3
 R4
 8C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
 FC:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
-!i122 360
+!i122 2007
 L0 5 22
 R7
 r1
 !s85 0
 31
-R8
+R23
 !s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v|
 !s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v|
 !i113 1
 R11
 R12
 vwriteback
-R0
+R22
 !i10b 1
 !s100 oF3?<1d2]O?NcP]=3o1jn0
 R1
-Igh;T61dYjVoZ?4ZkkUn002
+I561=:9<>=e6ADaPGB0e3F1
 R2
 R3
 w1740856900
-8C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v
-FC:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v
-!i122 364
+8C:\Users\Jay\Documents\School\ece552_spring\phase1\writeback.v
+FC:\Users\Jay\Documents\School\ece552_spring\phase1\writeback.v
+!i122 2011
 L0 1 23
 R7
 r1
 !s85 0
 31
-R8
-!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v|
-!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v|
+R23
+!s107 C:\Users\Jay\Documents\School\ece552_spring\phase1\writeback.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:\Users\Jay\Documents\School\ece552_spring\phase1\writeback.v|
 !i113 1
 R11
 R12
+vWriteDecoder_4_16
+R15
+!i10b 1
+!s100 `KAS^=oYL[V1S]SEjZBdW2
+R1
+I9ia2UYlJ3cMW5[HJITLTm2
+R2
+R3
+w1740446863
+8C:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v
+FC:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v
+!i122 2018
+R24
+R7
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v|
+!i113 1
+R11
+R12
+n@write@decoder_4_16

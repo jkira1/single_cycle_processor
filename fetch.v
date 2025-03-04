@@ -26,6 +26,8 @@ module fetch (
 	);
 
 	assign pc_add = pc + 2;
+	// assign pc_inc_2 = pc + 2;//pc_add;
+
 
 	// temporary flop for debugging
 	dff ff[15:0](

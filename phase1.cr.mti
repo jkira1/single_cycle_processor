@@ -5,12 +5,63 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	memory1c
 
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module adder_1bit
+-- Compiling module adder_4bit
+-- Compiling module adder_tb
+
+Top level modules:
+	adder_tb
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v {1 {vlog -work work -stats=none {C:\Users\Jay\Documents\School\ece552_spring\phase1\writeback.v}
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module writeback
+
+Top level modules:
+	writeback
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/RegisterFile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module RegisterFile
+
+Top level modules:
+	RegisterFile
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/Register.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Register
+
+Top level modules:
+	Register
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module cpu
+
+Top level modules:
+	cpu
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module t_adder4b
+
+Top level modules:
+	t_adder4b
+
 } {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/fetch.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module fetch
 
 Top level modules:
 	fetch
+
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/WriteDecoder_4_16.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module WriteDecoder_4_16
+
+Top level modules:
+	WriteDecoder_4_16
 
 } {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/D-Flip-Flop.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
@@ -22,6 +73,14 @@ Top level modules:
 } {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/execute.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
 -- Compiling module execute
+-- Compiling module cla_4bit
+-- Compiling module cla_5bit
+-- Compiling module cla_6bit
+-- Compiling module cla_4bit_group
+-- Compiling module cla_16bit
+-- Compiling module shifter_sll
+-- Compiling module shifter_sra
+-- Compiling module shifter_ror
 
 Top level modules:
 	execute
@@ -40,34 +99,25 @@ Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 
 Top level modules:
 	cpu_tb
 
-} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/cpu.v
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/ReadDecoder_4_16.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module cpu
+-- Compiling module ReadDecoder_4_16
 
 Top level modules:
-	cpu
+	ReadDecoder_4_16
 
-} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/writeback.v
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/BitCell.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module writeback
+-- Compiling module BitCell
 
 Top level modules:
-	writeback
+	BitCell
 
-} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/sample_adder_testbench.v
+} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/execute_tb.v
 Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module t_adder4b
+-- Compiling module execute_tb
 
 Top level modules:
-	t_adder4b
-
-} {} {}} C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v {1 {vlog -work work -stats=none C:/Users/Jay/Documents/School/ece552_spring/phase1/adder4bit+tb.v
-Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
--- Compiling module adder_1bit
--- Compiling module adder_4bit
--- Compiling module adder_tb
-
-Top level modules:
-	adder_tb
+	execute_tb
 
 } {} {}}
