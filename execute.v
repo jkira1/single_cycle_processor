@@ -221,28 +221,19 @@ module execute (
     // -------------------
     // PADDSB
     // -------------------
-    generate
-        genvar i;
-        for(i=0; i<4; i=i+1) begin : padsb
-            wire [3:0] a = read_data_1[i*4+3 : i*4];
-            wire [3:0] b = alu_b[i*4+3 : i*4];
-            wire [4:0] sum;
-            
-            // Use CLA instead of "+"
-            cla_5bit padsb_adder (
-                .a({a[3],a}),
-                .b({b[3],b}),
-                .cin(1'b0),
-                .sum(sum),
-                .cout()
-            );
-            
-            assign padsb_result[i*4+3 : i*4] = 
-                (sum[4] != sum[3]) ? 
-                    (sum[4] ? 4'b1000 : 4'b0111) : 
-                    sum[3:0];
-        end
-    endgenerate
+    wire [4:0] sum_0, sum_1, sum_2, sum_3;
+
+    cla_5bit padsb_adder_0 (.a({read_data_1[3], read_data_1[3:0]}), .b({alu_b[3], alu_b[3:0]}), .cin(1'b0), .sum(sum_0));
+    cla_5bit padsb_adder_1 (.a({read_data_1[7], read_data_1[7:4]}), .b({alu_b[7], alu_b[7:4]}), .cin(1'b0), .sum(sum_1));
+    cla_5bit padsb_adder_2 (.a({read_data_1[11], read_data_1[11:8]}), .b({alu_b[11], alu_b[11:8]}), .cin(1'b0), .sum(sum_2));
+    cla_5bit padsb_adder_3 (.a({read_data_1[15], read_data_1[15:12]}), .b({alu_b[15], alu_b[15:12]}), .cin(1'b0), .sum(sum_3));
+
+    assign padsb_result = {
+        (sum_3[4] != sum_3[3]) ? (sum_3[4] ? 4'b1000 : 4'b0111) : sum_3[3:0],
+        (sum_2[4] != sum_2[3]) ? (sum_2[4] ? 4'b1000 : 4'b0111) : sum_2[3:0],
+        (sum_1[4] != sum_1[3]) ? (sum_1[4] ? 4'b1000 : 4'b0111) : sum_1[3:0],
+        (sum_0[4] != sum_0[3]) ? (sum_0[4] ? 4'b1000 : 4'b0111) : sum_0[3:0]
+    };
 
 
     // -------------------
